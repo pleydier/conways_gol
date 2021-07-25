@@ -1,5 +1,4 @@
 #include <iostream>
-#include <Windows.h>
 using namespace std;
 
 const int MAP_HEIGHT = 10;
@@ -100,7 +99,6 @@ void renderMap(bool map[MAP_WIDTH][MAP_HEIGHT]) {
 }
 
 int main() {
-    SetConsoleOutputCP( CP_UTF8 );  // allows Windows console to display utf-8
     bool map[MAP_WIDTH][MAP_HEIGHT]{};
     cout << "Initialization:" << endl;
 
