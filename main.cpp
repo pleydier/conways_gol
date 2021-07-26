@@ -1,14 +1,7 @@
 #include <iostream>
+#include "Map.h"
 using namespace std;
 
-const int MAP_HEIGHT = 10;
-const int MAP_WIDTH = 40;
-
-void printMap(bool map[MAP_WIDTH][MAP_HEIGHT]);
-int countNeighboursAlive(bool map[MAP_WIDTH][MAP_HEIGHT], int x, int y);
-void countNeighboursAlive(bool map[MAP_WIDTH][MAP_HEIGHT], int nMap[MAP_WIDTH][MAP_HEIGHT]);
-void printCountNeighboursAlive(bool map[MAP_WIDTH][MAP_HEIGHT]);
-void renderMap(bool map[MAP_WIDTH][MAP_HEIGHT]);
 
 int main() {
     bool map[MAP_WIDTH][MAP_HEIGHT]{};

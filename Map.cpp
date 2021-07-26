@@ -3,9 +3,8 @@
 //
 
 #include <iostream>
+#include "Map.h"
 
-const int MAP_HEIGHT = 10;
-const int MAP_WIDTH = 40;
 
 void printMap(bool map[MAP_WIDTH][MAP_HEIGHT]) {
     for (int y = 0; y < MAP_HEIGHT; y++) {
